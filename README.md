@@ -23,6 +23,10 @@ You should see something like:
 
 Edit the telegram.conf file and replace it with your API-KEY and CHAT-ID
 
+Install all requirements:
+
+`pip install -r requirements.tx`
+
 
 # Usage
 
