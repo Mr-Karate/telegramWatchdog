@@ -13,7 +13,7 @@ class EventHandler(FileSystemEventHandler):
         with open(file, 'r') as f:
             lines = f.read().splitlines()
             last_line = lines[-1]
-            telegram_send.send(messages=[last_line], conf="telegram-send.conf")
+            telegram_send.send(messages=[last_line], conf="telegram.conf")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Watch for changes on any file in current directory  and send the last line of the file to a telegram chat using a pre-configured bot account. ")
