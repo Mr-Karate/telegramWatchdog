@@ -5,7 +5,7 @@ Watch for changes on any file in current directory  and send the last line of th
 
 ## Setup
 
-First you need create a bot on Telegram and get your API KEY.
+First you need [create a bot](https://core.telegram.org/bots) on Telegram and get your API KEY.
 
 Start a chat with the boot and get the chatid by running this command:
 
